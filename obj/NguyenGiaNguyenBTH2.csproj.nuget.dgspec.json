@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Học\\NguyenGiaNguyenBTH2\\NguyenGiaNguyenBTH2.csproj": {}
+    "D:\\Học\\NguyenGiaNguyenBTH2\\NguyenGiaNguyenBTH2.csproj": {}
   },
   "projects": {
-    "d:\\Học\\NguyenGiaNguyenBTH2\\NguyenGiaNguyenBTH2.csproj": {
+    "D:\\Học\\NguyenGiaNguyenBTH2\\NguyenGiaNguyenBTH2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Học\\NguyenGiaNguyenBTH2\\NguyenGiaNguyenBTH2.csproj",
+        "projectUniqueName": "D:\\Học\\NguyenGiaNguyenBTH2\\NguyenGiaNguyenBTH2.csproj",
         "projectName": "NguyenGiaNguyenBTH2",
-        "projectPath": "d:\\Học\\NguyenGiaNguyenBTH2\\NguyenGiaNguyenBTH2.csproj",
+        "projectPath": "D:\\Học\\NguyenGiaNguyenBTH2\\NguyenGiaNguyenBTH2.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "d:\\Học\\NguyenGiaNguyenBTH2\\obj\\",
+        "outputPath": "D:\\Học\\NguyenGiaNguyenBTH2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
